@@ -1,0 +1,40 @@
+package org.tnsif.hierarchicalinheritance;
+
+public class Android {
+	private String brand;
+	
+	private String slottype;
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+	public String getSlottype() {
+		return slottype;
+	}
+
+	public void setSlottype(String slottype) {
+		this.slottype = slottype;
+	}
+
+	public Android() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Android [brand=" + brand + ", slottype=" + slottype + ", toString()=" + super.toString() + "]";
+	}
+
+	public Android(String brand, String slottype) {
+		super();
+		this.brand = brand;
+		this.slottype = slottype;
+	}
+	
+}
